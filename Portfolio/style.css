@@ -1,6 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 /* TBD FONT IMPORT */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    padding: 10px;
+    background-color: black;
+}
+section{
+    background-color: rgb(223, 253, 0);
+    gap: 10px;
+}
+nav{
+    background-color: darkslategrey;
+}
+div{
+    background-color: darkorange;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
+a img:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+a img:active{
+    opacity: 0.3;
+}
+li {
+    list-style: none;
+}
+img{
+    width: 150px;
+}
+p  {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h3  {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.SpcBtwn {
+    justify-content: space-between;
+}
+.SpcArnd {
+    justify-content: space-around;
+}
+.AlgnItmCntr{
+ align-items: center;
+}
+.Wdth300{
+    max-width: 400px;
 }

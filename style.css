@@ -15,7 +15,11 @@ section{
     gap: 10px;
 }
 section div{
-    margin-bottom: 16px;
+    margin-bottom: 64px;
+}
+section div:hover{
+    opacity: 0.7;
+    background-color: red;
 }
 section h3{
     padding: 4px 4px;
@@ -25,11 +29,6 @@ section p{
 }
 section a{
 
-}
-nav{
-    z-index: 3;
-    /* background-color: darkslategrey; */
-    padding: 16px;
 }
 div{
     /* background-color: darkorange; */
@@ -43,13 +42,6 @@ a{
     text-decoration: none;
     color: white;
 }
-a img:hover{
-    opacity: 0.7;
-    transition: 0.3s;
-}
-a img:active{
-    opacity: 0.3;
-}
 li{
     list-style: none;
 }
@@ -59,17 +51,41 @@ img{
     object-fit: cover;
 }
 p{
-  font-family: "Sometype Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 h3{
-  font-family: "Sometype Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
+
+/* Nav */
+nav{
+    z-index: 3;
+    /* background-color: darkslategrey; */
+    padding: 16px;
+}
+.BtnCntct{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+.BtnCntct:active{
+    background-color: #fed337;
+    color: black;
+}
+.BtnCntct:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Container */
 .cntnr{
     max-width: 640px;
     left: 48%;
@@ -83,6 +99,10 @@ h3{
 }
 .cntnr div{
     /* background-color: rgba(0, 0, 38, 0.71); */
+}
+.PrjctSvg{
+    background-color: white;
+    width: fit-content;
 }
 
 /* Flex */
@@ -98,6 +118,9 @@ h3{
 }
 .AlgnItmCntr{
  align-items: center;
+}
+.RovRvrs{
+    flex-direction: row-reverse;
 }
 
 /* Hauteurs/Largeurs */
@@ -136,14 +159,5 @@ h3{
 .stck{
     position: sticky;
 }
-.BtnCntct{
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    padding: 4px 8px;
-    border-radius: 25px;
-}
-.BtnCntct:hover{
-    background-color: #fed337;
-    color: black;
-}
+
+/* Boutons */

@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
-body {
+body{
     padding: 10px;
     background-color: black;
 }
 section{
     /* background-color: rgb(223, 253, 0); */
     gap: 10px;
+}
+section div{
+    height: 150px;
+    margin-bottom: 16px;
+}
+section h3{
+    padding: 4px 4px;
+}
+section p{
+    padding: 0px 4px;
 }
 nav{
     z-index: 3;
@@ -27,7 +37,7 @@ div{
 li{
     color: white;
 }
-a {
+a{
     text-decoration: none;
     color: white;
 }
@@ -38,19 +48,21 @@ a img:hover{
 a img:active{
     opacity: 0.3;
 }
-li {
+li{
     list-style: none;
 }
 img{
-    width: 150px;
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
 }
-p  {
+p{
   font-family: "Sometype Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-h3  {
+h3{
   font-family: "Sometype Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -58,7 +70,7 @@ h3  {
 }
 .cntnr{
     max-width: 640px;
-    left: 50%;
+    left: 48%;
 }
 .cntnr >:nth-child(odd){
     /* background-color: purple; */
@@ -67,19 +79,20 @@ h3  {
     /* even = nombres pairs */
     /* sert à alterner mes <img> et mes <p> automatiquement */
 }
-.cntnr div {
+.cntnr div{
     background-color: rgba(0, 0, 38, 0.71);
 }
+
 
 /*  */
 .flex{
     display: flex;
     flex-wrap: wrap;
 }
-.SpcBtwn {
+.SpcBtwn{
     justify-content: space-between;
 }
-.SpcArnd {
+.SpcArnd{
     justify-content: space-around;
 }
 .AlgnItmCntr{
@@ -92,16 +105,16 @@ h3  {
 }
 
 /* Positions */
-.abslt {
+.abslt{
     position: absolute;
 }
-.fxd {
+.fxd{
     position: fixed;
 }
 .rltv{
     position: relative;
 }
-.stck {
+.stck{
     position: sticky;
 }
 .BtnCntct{

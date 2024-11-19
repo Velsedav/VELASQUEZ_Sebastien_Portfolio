@@ -1,163 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    padding: 10px;
-    background-color: black;
+body {
+  padding: 10px;
+  background-color: black;
 }
-section{
-    /* background-color: rgb(223, 253, 0); */
-    gap: 10px;
+section {
+  /* background-color: rgb(223, 253, 0); */
+  gap: 10px;
 }
-section div{
-    margin-bottom: 64px;
+section div {
+  margin-bottom: 92px;
 }
-section div:hover{
-    opacity: 0.7;
-    background-color: red;
+section div:hover {
+  opacity: 0.7;
+  /* background-color: red; */
 }
-section h3{
-    padding: 4px 4px;
+section h3 {
+  padding: 4px 4px;
 }
-section p{
-    padding: 0px 4px;
+section p {
+  padding: 0px 4px;
 }
-section a{
-
+section a {
 }
-div{
-    /* background-color: darkorange; */
-    margin: 5px;
-    color: white;
+div {
+  /* background-color: darkorange; */
+  margin: 5px;
+  color: white;
 }
-li{
-    color: white;
+li {
+  color: white;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-img{
-    max-width: 200px;
-    max-height: 150px;
-    object-fit: cover;
+img {
+  max-width: 200px;
+  max-height: 150px;
+  object-fit: cover;
 }
-p{
-    font-family: "Sometype Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+p {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-h3{
-    font-family: "Sometype Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+h3 {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* Nav */
-nav{
-    z-index: 3;
-    /* background-color: darkslategrey; */
-    padding: 16px;
+nav {
+  z-index: 3;
+  /* background-color: darkslategrey; */
+  padding: 16px;
 }
-.BtnCntct{
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    padding: 4px 8px;
-    border-radius: 25px;
+.BtnCntct {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 4px 8px;
+  border-radius: 25px;
 }
-.BtnCntct:active{
-    background-color: #fed337;
-    color: black;
+.BtnCntct:active {
+  background-color: #fed337;
+  color: black;
 }
-.BtnCntct:hover{
-    background-color: white;
-    color: black;
+.BtnCntct:hover {
+  background-color: white;
+  color: black;
 }
 
 /* Container */
-.cntnr{
-    max-width: 640px;
-    left: 48%;
+.cntnr {
+  max-width: 640px;
+  left: 48%;
 }
-.cntnr >:nth-child(odd){
-    /* background-color: purple; */
-    flex-direction: row-reverse;
-    /* odd = nombres impairs */
-    /* even = nombres pairs */
-    /* sert à alterner mes <img> et mes <p> automatiquement */
+.cntnr > :nth-child(odd) {
+  /* background-color: purple; */
+  flex-direction: row-reverse;
+  /* odd = nombres impairs */
+  /* even = nombres pairs */
+  /* sert à alterner mes <img> et mes <p> automatiquement */
 }
-.cntnr div{
-    /* background-color: rgba(0, 0, 38, 0.71); */
+.cntnr div {
+  /* background-color: rgba(0, 0, 38, 0.71); */
 }
-.PrjctSvg{
-    background-color: white;
-    width: fit-content;
+.PrjctSvg {
+  background-color: white;
+  width: fit-content;
 }
 
 /* Flex */
-.flex{
-    display: flex;
-    flex-wrap: wrap;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
-.SpcBtwn{
-    justify-content: space-between;
+.SpcBtwn {
+  justify-content: space-between;
 }
-.SpcArnd{
-    justify-content: space-around;
+.SpcArnd {
+  justify-content: space-around;
 }
-.AlgnItmCntr{
- align-items: center;
+.AlgnItmCntr {
+  align-items: center;
 }
-.RovRvrs{
-    flex-direction: row-reverse;
+.RovRvrs {
+  flex-direction: row-reverse;
 }
 
 /* Hauteurs/Largeurs */
-.Wdth300{
-    max-width: 300px;
+.Wdth300 {
+  max-width: 300px;
 }
-.Wdth150{
-    width: 150px;
+.Wdth150 {
+  width: 150px;
 }
-.Hght190{
-    height: 190px;
+.Hght190 {
+  height: 190px;
 }
-.MrgnBtm8{
-    margin-bottom: 8px;
+.MrgnBtm8 {
+  margin-bottom: 8px;
 }
-.MrgnLft9px{
-    margin-left: 9px;
+.MrgnLft9px {
+  margin-left: 9px;
 }
-.MrgnLft16px{
-    margin-left: 16px;
+.MrgnLft16px {
+  margin-left: 16px;
 }
-.MrgnTop{
-    margin-top: 32px;
+.MrgnTop {
+  margin-top: 32px;
 }
 
 /* Positions */
-.abslt{
-    position: absolute;
+.abslt {
+  position: absolute;
 }
-.fxd{
-    position: fixed;
+.fxd {
+  position: fixed;
 }
-.rltv{
-    position: relative;
+.rltv {
+  position: relative;
 }
-.stck{
-    position: sticky;
+.stck {
+  position: sticky;
 }
 
 /* Boutons */

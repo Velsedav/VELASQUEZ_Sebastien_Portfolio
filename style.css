@@ -18,6 +18,9 @@ section div {
 }
 section div:hover {
   opacity: 0.7;
+  outline-color: #fed337;
+  outline-style: solid;
+  outline-width: 1px;
   /* background-color: red; */
 }
 section h3 {

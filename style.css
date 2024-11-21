@@ -13,12 +13,10 @@ section {
   /* background-color: rgb(223, 253, 0); */
   gap: 10px;
 }
-section div {
-  margin-bottom: 92px;
-}
-section div:hover {
+.outline:hover {
   opacity: 0.7;
-  outline-color: #fed337;
+  /* outline-color: #fed337; */
+  outline-color: white;
   outline-style: solid;
   outline-width: 1px;
   /* background-color: red; */
@@ -29,12 +27,11 @@ section h3 {
 section p {
   padding: 0px 4px;
 }
-section a {
-}
 div {
   /* background-color: darkorange; */
   margin: 5px;
   color: white;
+  padding: 8px;
 }
 li {
   color: white;
@@ -47,8 +44,9 @@ li {
   list-style: none;
 }
 img {
-  max-width: 200px;
-  max-height: 150px;
+  max-width: 300px;
+  max-height: 200px;
+  width: fit-content;
   object-fit: cover;
 }
 p {
@@ -98,7 +96,7 @@ nav {
   /* even = nombres pairs */
   /* sert à alterner mes <img> et mes <p> automatiquement */
 }
-.cntnr div {
+.cntnr div{
   /* background-color: rgba(0, 0, 38, 0.71); */
 }
 .PrjctSvg {
@@ -107,7 +105,7 @@ nav {
 }
 
 /* Flex */
-.flex {
+.Flx {
   display: flex;
   flex-wrap: wrap;
 }
@@ -120,7 +118,7 @@ nav {
 .AlgnItmCntr {
   align-items: center;
 }
-.RovRvrs {
+.RowRvrs {
   flex-direction: row-reverse;
 }
 
@@ -136,6 +134,9 @@ nav {
 }
 .MrgnBtm8 {
   margin-bottom: 8px;
+}
+.MrgnBttm92{
+  margin-bottom: 92px;
 }
 .MrgnLft9px {
   margin-left: 9px;

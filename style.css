@@ -20,7 +20,7 @@ section {
   /* outline-color: #fed337; */
   outline-color: white;
   outline-style: solid;
-  outline-width: 0.1rem;
+  outline-width: 1px;
   /* background-color: red; */
 }
 section h3 {
@@ -80,7 +80,7 @@ nav {
 }
 .BtnCntct {
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 1px;
   border-color: white;
   padding: 4px 8px;
   border-radius: 2.5rem;

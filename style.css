@@ -1,40 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap");
-
+html {
+  font-size: 62.5%;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  padding: 10px;
+  padding: 1rem;
   background-color: black;
 }
 section {
   /* background-color: rgb(223, 253, 0); */
-  gap: 10px;
+  gap: 1rem;
 }
 .outline:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   /* outline-color: #fed337; */
   outline-color: white;
   outline-style: solid;
-  outline-width: 1px;
+  outline-width: 0.1rem;
   /* background-color: red; */
 }
 section h3 {
-  padding: 4px 4px;
+  font-size: 2rem;
+  padding: 0.4rem 0.4rem;
 }
 section p {
-  padding: 0px 4px;
+  padding: 0rem 0.4rem;
+  font-size: 1.6rem;
 }
 div {
   /* background-color: darkorange; */
-  margin: 5px;
+  margin: 0.5rem;
   color: white;
-  padding: 8px;
+  padding: 0.8rem;
 }
 li {
   color: white;
+  font-size: 1.4rem;
 }
 a {
   text-decoration: none;
@@ -54,26 +59,31 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3.4rem;
 }
 h3 {
   font-family: "Sometype Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 4rem;
 }
 
 /* Nav */
 nav {
   z-index: 3;
   /* background-color: darkslategrey; */
-  padding: 16px;
+  padding: 1.6rem;
 }
 .BtnCntct {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.1rem;
   border-color: white;
   padding: 4px 8px;
-  border-radius: 25px;
+  border-radius: 2.5rem;
 }
 .BtnCntct:active {
   background-color: #fed337;

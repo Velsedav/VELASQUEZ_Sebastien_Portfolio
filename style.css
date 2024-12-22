@@ -10,11 +10,18 @@ html {
 }
 body {
   padding: 1rem;
-  background-color: rgb(3, 0, 12);
+  background-color: rgb(16, 16, 17);
+  height: 96vh;
+  width: 96vw;
+  /* border: #fed337 solid 1px; */
+  margin: 1vw 1vh;
 }
 section {
   /* background-color: rgb(223, 253, 0); */
   gap: 1rem;
+  overflow: auto;
+  height: 80vh;
+  scrollbar-color: none;
 }
 .outline:hover {
   /* opacity: 0.7; */
@@ -119,6 +126,10 @@ nav {
 .Flx {
   display: flex;
   flex-wrap: wrap;
+}
+.FlexRow{
+  display: flex;
+  flex-direction: row;
 }
 .SpcBtwn {
   justify-content: space-between;

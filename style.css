@@ -74,6 +74,10 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 1.6rem;
+  color: white;
+  /* display: inline-block; */
+  padding-bottom: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 h1 {
   font-size: 3.4rem;

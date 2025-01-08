@@ -3,29 +3,42 @@ fetch("data.json")
     return rep.json();
   })
   .then((dataBase) => {
-    // console.log(dataBase);
-    // j'affiche les produits:
-    dataBase.produits.forEach((produitDuDataSet) => {
-      AfficheUnProduit(produitDuDataSet);
-    });
-    dataBase.temoignages.forEach((temoignagesDuDataSet) => {
-      AfficheUnTemoignages(temoignagesDuDataSet);
-    });
-    dataBase.services.forEach((servicesDuDataSet) => {
-      AfficheUnServices(servicesDuDataSet);
-    });
-    dataBase.avantagesClients.forEach((avantagesClientsDuDataSet) => {
-      AfficheAvantagesClients(avantagesClientsDuDataSet);
-    });
-    AfficheLeHero(
-      dataBase.nomCommercial,
-      dataBase.phraseAccroche,
-      dataBase.texteAppelAction
+    console.log(dataBase);
+    dataBase.forEach(ProjetSurLequelBoucle => {
+         afficheLeProjet(
+        ProjetSurLequelBoucle.title,
+        ProjetSurLequelBoucle.description,
+        ProjetSurLequelBoucle.link,
+        ProjetSurLequelBoucle.image,
     );
+});
+// ProjetSurLequelBoucle.type,
+// ProjetSurLequelBoucle.HardSkills,
+// ProjetSurLequelBoucle.SoftSkills,
+// ProjetSurLequelBoucle.GroupeSolo,
+
   });
 
-
-
+// R : Afficher chaque projet dans la section avec l'id #sectionProjets
+// A : title, description, link, image
+// R : Rien car elle affiche
+    function afficheLeProjet(title, description, link, image) {
+        let divProjet = `
+                <a
+            href="${link}"
+            target="_blank" id="link"
+        >
+            <div class="FlexRow SpcArnd outline MrgnBttm32 AlgnItmCntr">
+            <img src="${image}" alt="Image de pâtisserie" id="image"/>
+            <div class="Wdth300 AlgnItmCntr">
+                <h3 id="title">${title}</h3>
+                <p id="description">${description}</p>
+            </div>
+            </div>
+        </a>
+        `
+        document.querySelector('#sectionProjets').innerHTML += divProjet
+}
 
 
 

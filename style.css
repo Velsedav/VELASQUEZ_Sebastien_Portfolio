@@ -117,16 +117,12 @@ nav {
   max-width: 640px;
   left: 48%;
 }
-.cntnr > :nth-child(odd) {
-  /* background-color: purple; */
+#sectionProjets > :nth-child(odd) > div {
   flex-direction: row-reverse;
-  /* odd = nombres impairs */
-  /* even = nombres pairs */
-  /* sert à alterner mes <img> et mes <p> automatiquement */
 }
-.cntnr div{
-  /* background-color: rgba(0, 0, 38, 0.71); */
-}
+/* .cntnr div{
+  background-color: rgba(0, 0, 38, 0.71);
+} */
 .PrjctSvg {
   background-color: white;
   width: fit-content;

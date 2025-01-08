@@ -1,48 +1,80 @@
 [
     {
       "title": "Gustav HOLST - Les planètes",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
       "description": "Le résultat de mes premiers pas en HTML et CSS, projet en l'honneur de l'oeuvre symphonique Les planètes de Gustav HOLST",
       "link": "https://velsedav.github.io/Gustav_Holst_Page/Gustav-HOLST.html",
       "image": "assets/mars_nasa.jpg"
     },
     {
       "title": "La ruche",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
       "description": "Bzz bzz, j'ai peur des guêpes et des abeilles. Importation de fonts, îcones, images cliquables",
       "link": "https://velsedav.github.io/La_Ruche_Seb//",
       "image": "assets/la_ruche.png"
     },
     {
       "title": "Château de la Loire",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
       "description": "Découverte des positions CSS, section Hero et backdrop-filter",
       "link": "https://velsedav.github.io/chateau_de_la_loire/",
       "image": "assets/Chateau_Loire.png"
     },
     {
       "title": "Ce portfolio",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
       "description": "<i class=\"fa-solid fa-location-dot\"></i> Vous êtes ici",
       "link": "https://velsedav.github.io/VELASQUEZ_Sebastien_Portfolio/",
       "image": "assets/SpiraleInfinie2.jpg"
     },
       {
-      "title": "Store Exercise",
-      "description": "Exercice de création de page de magasin grâce à un JSON.",
+      "title": "Fakeshop",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
+      "description": "Exercice de création de page de magasin grâce à une API.",
       "link": "https://velsedav.github.io/Bazar_de_Balthazar/",
       "image": "assets/Bazar_de_Balthazar_preview.png"
     },
     {
-      "title": "Tichef Cookbook Json",
-      "description": "Projet utilisant JSON pour un livre de cuisine.",
+      "title": "Tichef Cookbook",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
+      "description": "Projet utilisant JSON pour afficher une livre de recettes.",
       "link": "https://velsedav.github.io/Tichef_Cookbook_Json/",
       "image": "assets/livre_de_cuisine.jpg"
     },
     {
       "title": "TouBon Pâtisserie",
-      "description": "Projet TouBon Pâtisserie.",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
+      "description": "Maquette low-fidelity et mid-fidelity",
       "link": "https://velsedav.github.io/TouBon_Patisserie_VELASQUEZ_Sebastien/",
       "image": "assets/patisserie.jpg"
     },
     {
       "title": "Olympe",
+      "type": "Frontend",
+      "Hard-Skills": "",
+      "Soft-Skills": "",
+      "Groupe/Solo": "",
       "description": "Projet découverte du CMS Webflow, incluant une base de donnée.",
       "link": "https://sebastien-velasquez-portfolio.webflow.io/",
       "image": "assets/olympe.jpg"

@@ -1,3 +1,49 @@
+fetch("data.json")
+  .then((rep) => {
+    return rep.json();
+  })
+  .then((dataBase) => {
+    // console.log(dataBase);
+    // j'affiche les produits:
+    dataBase.produits.forEach((produitDuDataSet) => {
+      AfficheUnProduit(produitDuDataSet);
+    });
+    dataBase.temoignages.forEach((temoignagesDuDataSet) => {
+      AfficheUnTemoignages(temoignagesDuDataSet);
+    });
+    dataBase.services.forEach((servicesDuDataSet) => {
+      AfficheUnServices(servicesDuDataSet);
+    });
+    dataBase.avantagesClients.forEach((avantagesClientsDuDataSet) => {
+      AfficheAvantagesClients(avantagesClientsDuDataSet);
+    });
+    AfficheLeHero(
+      dataBase.nomCommercial,
+      dataBase.phraseAccroche,
+      dataBase.texteAppelAction
+    );
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Fonction pour générer le contenu du pitch (important : c'est une fonction maintenant)
 function createSkillsPitch() {
     return `

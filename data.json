@@ -40,5 +40,11 @@
       "description": "Projet TouBon Pâtisserie.",
       "link": "https://velsedav.github.io/TouBon_Patisserie_VELASQUEZ_Sebastien/",
       "image": "assets/patisserie.jpg"
+    },
+    {
+      "title": "Olympe",
+      "description": "Projet découverte du CMS Webflow, incluant une base de donnée.",
+      "link": "https://sebastien-velasquez-portfolio.webflow.io/",
+      "image": "assets/olympe.jpg"
     }
   ]

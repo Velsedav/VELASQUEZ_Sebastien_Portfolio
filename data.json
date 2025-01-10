@@ -57,7 +57,7 @@
       "GroupeSolo": "",
       "description": "Projet utilisant JSON pour afficher une livre de recettes.",
       "link": "https://velsedav.github.io/Tichef_Cookbook_Json/",
-      "image": "assets/livre_de_cuisine.jpg"
+      "image": "assets/livre_de_cuisine.png"
     },
     {
       "title": "TouBon Pâtisserie",
@@ -67,7 +67,7 @@
       "GroupeSolo": "",
       "description": "Maquette low-fidelity et mid-fidelity",
       "link": "https://velsedav.github.io/TouBon_Patisserie_VELASQUEZ_Sebastien/",
-      "image": "assets/patisserie.jpg"
+      "image": "assets/patisserie.png"
     },
     {
       "title": "Olympe",
@@ -77,6 +77,6 @@
       "GroupeSolo": "",
       "description": "Projet découverte du CMS Webflow, incluant une base de donnée.",
       "link": "https://sebastien-velasquez-portfolio.webflow.io/",
-      "image": "assets/olympe.jpg"
+      "image": "assets/olympe.png"
     }
   ]

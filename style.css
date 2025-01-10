@@ -11,8 +11,8 @@ html {
 body {
   padding: 1rem;
   background-color: rgb(16, 16, 17);
-  height: 95vh;
-  width: 95vw;
+  height: 95dvh;
+  width: 95dvw;
   /* border: #fed337 solid 1px; */
   margin: 1vw 1vh;
   overflow: hidden;
@@ -22,7 +22,7 @@ section {
   /* background-color: rgb(223, 253, 0); */
   gap: 0.5rem;
   overflow: auto;
-  height: 80vh;
+  height: 80dvh;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }

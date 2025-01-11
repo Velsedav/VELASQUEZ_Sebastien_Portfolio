@@ -7,22 +7,24 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Sometype Mono", monospace;
+  scrollbar-width: 1px
 }
 body {
-  padding: 1rem;
-  background-color: rgb(16, 16, 17);
+  background-color: rgb(27, 27, 29);
   height: 95vh;
   width: 95vw;
   /* border: #fed337 solid 1px; */
-  margin: 1vw 1vh;
+  margin: max(20px, 4vmin);
   overflow: hidden;
   border-color: white;
+
 }
 section {
   /* background-color: rgb(223, 253, 0); */
   gap: 0.5rem;
   overflow: auto;
   height: 80vh;
+  right: 10%;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -90,12 +92,12 @@ h3 {
   font-style: normal;
   font-size: 4rem;
 }
-
 /* Nav */
 nav {
   z-index: 3;
   /* background-color: darkslategrey; */
   padding: 1.6rem;
+  top: 10%;
 }
 .BtnCntct {
   border-style: solid;
@@ -119,7 +121,9 @@ nav {
 /* Container */
 .cntnr {
   max-width: 640px;
-  left: 48%;
+  left: 49%;
+  top: 2%;
+  height: 95%;
 }
 #sectionProjets > :nth-child(odd) > div {
   flex-direction: row-reverse;
@@ -129,9 +133,11 @@ nav {
   filter: grayscale(100%);
 }
 .cntnr div:hover{
-  transition: 0.3s;
+  transition: 0.2s;
   opacity: 1;
   filter: grayscale(0%);
+  /* background-color: #fed337; */
+  /* color: black; */
 }
 .PrjctSvg {
   background-color: white;
@@ -192,6 +198,7 @@ nav {
 }
 .fxd {
   position: fixed;
+  z-index: 1;
 }
 .rltv {
   position: relative;

@@ -1,3 +1,4 @@
+AOS.init();
 fetch("data.json")
   .then((rep) => {
     return rep.json();

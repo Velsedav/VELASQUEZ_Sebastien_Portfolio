@@ -266,6 +266,10 @@ nav {
 #mobile-nav ul li {
   text-align: center; /* Centers the text inside each <li> */
 }
+#mobile-nav ul li:hover{
+  background-color:#fed337;
+  color: black;
+}
 
 .cntnr {
     position: static;
@@ -274,10 +278,10 @@ nav {
     margin: auto;
 }
 
-section{
+/* section{
     position: static;
     height: auto;
-}
+} */
 
 .abslt, .fxd, .rltv, .stck{
     position: static;

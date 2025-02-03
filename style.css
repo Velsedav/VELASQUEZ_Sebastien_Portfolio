@@ -113,12 +113,10 @@ nav {
   filter: grayscale(100%);
 }
 .cntnr a:hover{
-  transition: 0.2s;
+  transition: 0.28s;
   opacity: 1;
   filter: grayscale(0%);
-  transform-origin: top left;
-  /* background-color: #fed337; */
-  /* color: black; */
+
 }
 section {
   /* background-color: rgb(223, 253, 0); */

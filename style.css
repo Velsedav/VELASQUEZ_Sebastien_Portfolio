@@ -100,8 +100,8 @@ nav {
 
 /* ||| Container & Projets ||| */
 .cntnr {
-  max-width: 640px;
-  right: 0%;
+  max-width: 70%;
+  right: 0;
   top: 2%;
   height: 95%;
 }
@@ -183,8 +183,11 @@ section p {
 }
 
 /*  ||| Hauteurs/Largeurs ||| */
+.cardWidth{
+  max-width: 80rem;
+}
 .Wdth300 {
-  max-width: 300px;
+  max-width: 30rem;
 }
 .Wdth150 {
   width: 150px;
@@ -247,9 +250,10 @@ section p {
     display:grid;
     grid-template-columns: 5% 5% 5% 5% 5%;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-items: center;
     padding: 2em 2em;
+    grid-gap: 2px;
   }
 
 nav {
@@ -259,25 +263,34 @@ nav {
     width: 100%;
 }
 #mobile-nav ul {
-  display: contents; /* Lets the children (<li>) be part of the grid directly */
-  padding: 0; /* Removes default padding */
-  margin: 0; /* Removes default margin */
+  display: contents; 
+  padding: 0; 
+  margin: 0; 
 }
 #mobile-nav ul li {
-  text-align: center; /* Centers the text inside each <li> */
+  text-align: center; 
 }
-#mobile-nav ul li:hover{
+/* #mobile-nav ul li:hover{
   background-color:#fed337;
   color: black;
+} */
+#sectionProjets > :nth-child(odd) > div {
+  flex-direction: column;
 }
-
 .cntnr {
     position: static;
-    width: 98%;
+    width: 100%;
     height: auto;
     margin: auto;
+    & a div{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
 }
-
+.Wdth300{
+  width: 100%;
+}
 /* section{
     position: static;
     height: auto;

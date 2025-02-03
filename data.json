@@ -15,7 +15,7 @@
       "HardSkills": "",
       "SoftSkills": "",
       "GroupeSolo": "",
-      "description": "Bzz bzz, j'ai peur des guêpes et des abeilles. Importation de fonts, îcones, images cliquables",
+      "description": "Importation de fonts, îcones, images cliquables",
       "link": "https://velsedav.github.io/La_Ruche_Seb//",
       "image": "assets/la_ruche.png"
     },
@@ -78,5 +78,15 @@
       "description": "Projet découverte du CMS Webflow, incluant une base de donnée.",
       "link": "https://sebastien-velasquez-portfolio.webflow.io/",
       "image": "assets/olympe.png"
+    },
+    {
+      "title": "Movoo",
+      "type": "Frontend",
+      "HardSkills": "",
+      "SoftSkills": "",
+      "GroupeSolo": "",
+      "description": "Travail de groupe d'UI,UX, documentation, intégration web et pitch",
+      "link": "https://ludivineboc.github.io/movoo-latoile/",
+      "image": "assets/movoo.png"
     }
   ]

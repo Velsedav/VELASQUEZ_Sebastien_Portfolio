@@ -25,16 +25,17 @@ fetch("data.json")
 // R : Rien car elle affiche
     function afficheLeProjet(title, description, link, image) {
         let divProjet = `
-                <a
+        <a
             href="${link}"
             target="_blank" id="link"
+            class="cardWidth"
         >
-            <div class="FlexRow SpcArnd outline MrgnBttm32 AlgnItmCntr">
-            <img src="${image}" alt="Image de pâtisserie" id="image"/>
-            <div class="Wdth300 AlgnItmCntr">
-                <h3 id="title">${title}</h3>
-                <p id="description">${description}</p>
-            </div>
+            <div class="FlexRow SpcBtwn outline MrgnBttm32 AlgnItmCntr">
+                <img src="${image}" alt="Image de pâtisserie" id="image"/>
+                <div class="Wdth300 AlgnItmCntr">
+                    <h3 id="title">${title}</h3>
+                    <p id="description">${description}</p>
+                </div>
             </div>
         </a>
         `

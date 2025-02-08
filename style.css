@@ -224,6 +224,45 @@ section p {
   position: sticky;
 }
 
+/* ... (your existing CSS) ... */
+
+#pitch-container {
+  font-family: "Sometype Mono", monospace; /* Or any font you prefer */
+  color: black; /* Text color */
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+}
+
+#pitch-content {
+  /* Styles for the "typing effect" */
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3.5s steps(40, end) infinite,
+  blink-caret .75s step-end infinite;
+  font-size: 1.6rem; /* Adjust font size as needed */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; } /* Or any color you like for the caret */
+}
+
+/* Style pour fermer la div pitch */
+#pitch-container .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
 /* Boutons */
 /*  ||| Media Queries |||  */
 @media all and (max-width: 840px) {

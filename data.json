@@ -50,16 +50,6 @@
       "image": "assets/Bazar_de_Balthazar_preview.png"
     },
     {
-      "title": "Tichef Cookbook",
-      "type": "Frontend",
-      "HardSkills": "",
-      "SoftSkills": "",
-      "GroupeSolo": "",
-      "description": "Projet utilisant JSON pour afficher une livre de recettes.",
-      "link": "https://velsedav.github.io/Tichef_Cookbook_Json/",
-      "image": "assets/livre_de_cuisine.png"
-    },
-    {
       "title": "TouBon Pâtisserie",
       "type": "Frontend",
       "HardSkills": "",

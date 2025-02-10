@@ -102,7 +102,7 @@ nav {
 .cntnr {
   max-width: 70%;
   right: 0;
-  top: 2%;
+  bottom: 0;
   height: 95%;
 }
 #sectionProjets > :nth-child(odd) > div {

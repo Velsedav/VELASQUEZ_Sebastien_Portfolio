@@ -25,11 +25,8 @@ fetch("data.json")
 // R : Rien car elle affiche
     function afficheLeProjet(title, description, link, image) {
         let divProjet = `
-        <a
-            href="${link}"
-            target="_blank" id="link"
-            class="cardWidth"
-        >
+        <a  href="${link}" target="_blank" id="link" class="cardWidth">
+
             <div class="FlexRow SpcBtwn outline MrgnBttm32 AlgnItmCntr">
                 <img src="${image}" alt="Image de pâtisserie" id="image"/>
                 <div class="Wdth300 AlgnItmCntr">
@@ -44,8 +41,10 @@ fetch("data.json")
 
 
 
+
+
 // Fonction pour générer le contenu du pitch
-function createSkillsPitch() {
+function afficherPitch() {
     return `
         <p>Bonjour, merci de l'intérêt que vous portez à mon profil.</p>
         <p>Je m’appelle Sébastien, j’ai 36 ans, et d'ici 5 ans je veux être Pentester Junior. Pour atteindre mon but je voudrais faire un parcours en alternance en cybersécurité au sein de votre école.</p>
@@ -59,19 +58,31 @@ function createSkillsPitch() {
 
 
 
-// Sélectionner le bouton (le li avec l'id Hard-Skills)
-const boutonSkills = document.getElementById('Hard-Skills');
+// Sélectionner le bouton (le li avec l'id CV)
+const boutonCV = document.getElementById('CV');
 
 // Ajouter l'écouteur d'événements
-if (boutonSkills) { // Vérification pour éviter les erreurs si l'élément n'est pas trouvé
-    boutonSkills.addEventListener('click', () => {
+if (boutonCV) { // Vérification pour éviter les erreurs si l'élément n'est pas trouvé
+    boutonCV.addEventListener('click', () => {
         const section = document.querySelector('section');
+
+
+
+
+
+
+
         if (section) { // Vérification pour éviter les erreurs si la section n'est pas trouvée
-            section.innerHTML = createSkillsPitch(); // Utiliser la fonction pour générer le contenu
+            section.innerHTML = afficherPitch(); // Utiliser la fonction pour générer le contenu
         } else {
             console.error("L'élément <section> n'a pas été trouvé.");
         }
     });
 } else {
-    console.error("L'élément avec l'ID 'Hard-Skills' n'a pas été trouvé.");
+    console.error("L'élément avec l'ID 'CV' n'a pas été trouvé.");
 }
+
+// const boutonProjets = document.querySelector('section');
+// boutonProjets.addEventListener('click', (section) => {
+//     const section = document.querySelector('section');
+// })

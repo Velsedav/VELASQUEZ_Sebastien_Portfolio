@@ -167,6 +167,9 @@ section p {
   flex-direction: column;
   gap: 2em;
 }
+.JstfCenter {
+  justify-content: center;
+}
 .SpcBtwn {
   justify-content: space-between;
 }
@@ -178,6 +181,9 @@ section p {
 }
 .RowRvrs {
   flex-direction: row-reverse;
+}
+.tac{
+  text-align: center;
 }
 
 /*  ||| Hauteurs/Largeurs ||| */

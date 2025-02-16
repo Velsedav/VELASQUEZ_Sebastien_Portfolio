@@ -5,7 +5,7 @@
       "HardSkills": "",
       "SoftSkills": "",
       "GroupeSolo": "",
-      "description": "Le résultat de mes premiers pas en HTML et CSS, projet en l'honneur de l'oeuvre symphonique Les planètes de Gustav HOLST",
+      "description": "Mes premiers pas en HTML/CSS, en l'honneur de l'oeuvre symphonique Les planètes de Gustav HOLST",
       "link": "https://velsedav.github.io/Gustav_Holst_Page/Gustav-HOLST.html",
       "image": "assets/mars_nasa.jpg"
     },
@@ -30,12 +30,12 @@
       "image": "assets/Chateau_Loire.png"
     },
     {
-      "title": "Ce portfolio",
+      "title": "Ce portfolio même",
       "type": "Frontend",
       "HardSkills": "",
       "SoftSkills": "",
       "GroupeSolo": "",
-      "description": "<i class=\"fa-solid fa-location-dot\"></i> Vous êtes ici",
+      "description": "Un lieu d'experimentation",
       "link": "https://velsedav.github.io/VELASQUEZ_Sebastien_Portfolio/",
       "image": "assets/spirale.png"
     },

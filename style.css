@@ -3,6 +3,7 @@
 :root{
   --backgroundBlack:#1b1b1d;
   --yellow:#fed337;
+  --yellow-border:#b69418;
 }
 html {
   font-size: 62.5%;
@@ -23,8 +24,8 @@ html {
 }
 body {
   /* border: #fed337 solid 9px; */
-  border-left: var(--yellow) solid 1px;
-  border-top: var(--yellow) solid 1px;
+  /* border-left: var(--yellow) solid 1px; */
+  /* border-top: var(--yellow) solid 1px; */
   background-color: var(--backgroundBlack);
   padding: 20px;
   margin-right: 2px;
@@ -32,28 +33,7 @@ body {
   min-height: 92dvh;
   width: 100%;
 }
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 1px; /* Border width */
-  height: 0; /* Start with 0 height */
-  background: linear-gradient(to bottom, var(--yellow), var(--backgroundBlack));
-  animation: animateBorder 6s ease-in-out infinite;
-}
 
-@keyframes animateBorder {
-  0% {
-    height: 74%; /* Start from the top */
-  }
-  50% {
-    height: 120%; /* Reach 66% of the body height */
-  }
-  100% {
-    height: 74%; /* Return to the top */
-  }
-}
 
 div {
   margin: 0.5rem;
@@ -78,7 +58,7 @@ li {
   bottom: 0;
   left: 0;
   opacity: 0;
-  transition: 0.15s ease-in-out;
+  transition: 0.19s ease-in-out;
 }
 .hoverStyle:hover::after {
   position: absolute;
@@ -91,7 +71,7 @@ li {
   bottom: 0;
   left: 0;
   opacity: 1;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.15s ease-in-out; */
 }
 .BtnCntct {
   padding: 6px 20px;
@@ -277,6 +257,7 @@ section a {
 /* .MrgnBttm32{
   margin-bottom: 32px;
 } */
+
 .MrgnLft9px {
   margin-left: 9px;
 }
@@ -285,6 +266,9 @@ section a {
 }
 .MrgnTop {
   margin-top: 32px;
+}
+.ch60{
+  font-size: 0.1rem;
 }
 
 /* Positions */
@@ -350,6 +334,34 @@ section a {
 
 /* Boutons */
 /*  ||| Media Queries |||  */
+@media all and (width > 920px) {
+  body::before {
+    content: '';
+    position: absolute;
+    top: 85%;
+    right: -1rem;
+    width: 2px; /* Border width */
+    height: 0; /* Start with 0 height */
+    background: hsl(0, 2%, 25%);
+    /* Le nom de l'animation animBorderBody est ciblé par le @keyframes just en dessous */
+    animation: animBorderBody 3.5s ease-in-out infinite; 
+  }
+  
+  @keyframes animBorderBody {
+    0% {
+      opacity: 0%;
+      height: 0%;
+    }
+    50% {
+      opacity: 100%;
+      height: 14.8%;
+    }
+    100% {
+      opacity: 0%;
+      height: 0%;
+    }
+  }
+}
 @media all and (max-width: 920px) {
   .outline:hover{
     outline-style: none;

@@ -37,7 +37,7 @@
       "GroupeSolo": "",
       "description": "Un lieu d'experimentation",
       "link": "https://velsedav.github.io/VELASQUEZ_Sebastien_Portfolio/",
-      "image": "assets/spirale.png"
+      "image": "assets/portfolio.png"
     },
       {
       "title": "Fakeshop",
@@ -50,7 +50,7 @@
       "image": "assets/Bazar_de_Balthazar_preview.png"
     },
     {
-      "title": "TouBon Pâtisserie",
+      "title": "Pâtisserie TouBon",
       "type": "Frontend",
       "HardSkills": "",
       "SoftSkills": "",

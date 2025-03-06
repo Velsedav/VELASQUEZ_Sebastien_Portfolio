@@ -11,6 +11,7 @@ html {
   /* background: rgb(27,27,29); */
   /* background: linear-gradient(0deg, rgba(27,27,29,1) 5%, rgba(254,211,55,1) 100%); */
   margin: 6px;
+  line-height: 1.5;
 }
 * {
   margin: 0;
@@ -23,14 +24,14 @@ html {
   
 }
 body {
-  /* border: #fed337 solid 9px; */
+  /* border: #e8b90f solid 1px; */
   /* border-left: var(--yellow) solid 1px; */
   /* border-top: var(--yellow) solid 1px; */
   background-color: var(--backgroundBlack);
   padding: 20px;
   margin-right: 2px;
   overflow: hidden;
-  min-height: 92dvh;
+  min-height:92dvh;
   width: 100%;
 }
 
@@ -100,7 +101,7 @@ li {
 img {
   max-width: 30rem;
   max-height: 20rem;
-  width: fit-content;
+  /* width: fit-content; */
   object-fit: cover;
 }
 p {
@@ -172,6 +173,7 @@ section {
   scrollbar-width: none;
   -ms-overflow-style: none;
   right: 1%;
+  margin-left: 210px;
 }
 section ::-webkit-scrollbar { 
     display: none;
@@ -192,6 +194,7 @@ section h3 {
 section p {
   padding: 0rem 0.4rem;
   font-size: 1.6rem;
+  max-width: 60ch;
 }
 section a {
   box-shadow: var(--backgroundBlack);
@@ -257,7 +260,10 @@ section a {
 /* .MrgnBttm32{
   margin-bottom: 32px;
 } */
-
+.ch60{
+  width: 60ch;
+  display: block;
+}
 .MrgnLft9px {
   margin-left: 9px;
 }
@@ -362,6 +368,7 @@ section a {
     }
   }
 }
+
 @media all and (max-width: 920px) {
   .outline:hover{
     outline-style: none;
@@ -371,6 +378,10 @@ section a {
   }
   nav {
     padding: 4rem;
+    position: static;
+    width: 100%;
+    margin: auto;
+    width: 100%;
   }
   .cntnr {
     width: 100%;
@@ -402,29 +413,22 @@ section a {
     font-weight: 400;
     /* margin-bottom: 16px; */
   }
-
-nav {
-    position: static;
-    width: 100%;
-    margin: auto;
-    width: 100%;
-}
-#mobile-nav ul {
+  #mobile-nav ul {
   padding: 0; 
   margin: 0; 
-}
-#mobile-nav ul li {
+  }
+  #mobile-nav ul li {
   text-align: center; 
   font-size: 1rem;
-}
-/* #mobile-nav ul li:hover{
+  }
+  /* #mobile-nav ul li:hover{
   background-color:#fed337;
   color: black;
 } */
-#sectionProjets > :nth-child(odd) > div {
+  #sectionProjets > :nth-child(odd) > div {
   flex-direction: column;
-}
-.cntnr {
+  }
+  .cntnr {
     position: static;
     width: 100%;
     height: auto;
@@ -434,18 +438,21 @@ nav {
       flex-direction: column;
       gap: 4px;
     }
-}
-.Wdth300{
-  width: 100%;
-}
-img {
-  width: fit-content;
-}
-/* section{
+  }
+  .Wdth300{
+    max-width: 60ch;
+  }
+  img {
+  max-width: 60rem;
+  max-height: 26rem;
+  }
+  /* section{
     position: static;
     height: auto;
-} */
-
+  } */
+  .FlexColum {
+    gap: 4em;
+  }
 .abslt, .fxd, .rltv, .stck{
     position: static;
 }
@@ -492,6 +499,9 @@ p {
 }
 img {
   max-width: fit-content;
+  max-height: 180px;
+  /* width: fit-content; */
+  object-fit: cover;
 }
 .Wdth300{
   max-width: fit-content;
@@ -501,7 +511,7 @@ img {
   /* display: block; */
   margin: auto;
   & a div {
-    gap: 16px
+    gap: 10px
   }
 }
   #Identification-mobile{

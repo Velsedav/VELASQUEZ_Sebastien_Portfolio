@@ -60,6 +60,16 @@
       "image": "assets/patisserie.png"
     },
     {
+      "title": "Fit Elite",
+      "type": "Figma",
+      "HardSkills": "",
+      "SoftSkills": "",
+      "GroupeSolo": "",
+      "description": "Design thinking et prototype Figma",
+      "link": "",
+      "image": "assets/fit_elite.png"
+    },
+    {
       "title": "Olympe",
       "type": "Frontend",
       "HardSkills": "",
@@ -78,5 +88,15 @@
       "description": "Travail de groupe d'UI,UX, documentation, intégration web et pitch",
       "link": "https://ludivineboc.github.io/movoo-latoile/",
       "image": "assets/movoo.png"
+    },
+    {
+      "title": "Chatperon",
+      "type": "Figma",
+      "HardSkills": "",
+      "SoftSkills": "",
+      "GroupeSolo": "",
+      "description": "Réalisé en 2,5 jours lors d'un Hackathon et pitché devant un jury de professionels",
+      "link": "",
+      "image": "assets/chatperon.png"
     }
   ]

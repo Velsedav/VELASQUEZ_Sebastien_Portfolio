@@ -480,6 +480,13 @@ body {
   width: auto;
   height: auto;
 }
+#mobile-nav ul li {
+  margin: 1.125rem;
+  font-size: 1.3rem;
+}
+#mobile-nav {
+  padding: 6rem;
+}
 section a {
   max-width: 300px;
   display: block;
@@ -499,7 +506,7 @@ p {
 }
 img {
   max-width: fit-content;
-  max-height: 180px;
+  max-height: 200px;
   /* width: fit-content; */
   object-fit: cover;
 }
@@ -507,7 +514,7 @@ img {
   max-width: fit-content;
 }
 .cntnr {
-  width: 98%;
+  max-width: none;
   /* display: block; */
   margin: auto;
   & a div {

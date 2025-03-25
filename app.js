@@ -69,8 +69,3 @@ if (boutonbio) {
 } else {
   console.error("L'élément avec l'ID 'bio' n'a pas été trouvé.");
 }
-
-// const boutonProjets = document.querySelector('section');
-// boutonProjets.addEventListener('click', (section) => {
-//     const section = document.querySelector('section');
-// })

@@ -1,3 +1,4 @@
+// @ts-ignore
 AOS.init();
 fetch("data.json")
   .then((rep) => {
@@ -35,6 +36,7 @@ function afficheLeProjet(title, description, link, image) {
             </div>
         </a>
         `;
+  // @ts-ignore
   document.querySelector("#sectionProjets").innerHTML += divProjet;
 }
 
